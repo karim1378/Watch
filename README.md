@@ -2,4 +2,4 @@
 watch project 
 
 ##project demo.gif
-[ view demo.gif](https://github.com/karim1378/Watch/assets/demo.gif)
+[view demo](https://github.com/karim1378/Watch/tree/main/assets/demo.gif)
