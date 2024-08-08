@@ -14,5 +14,5 @@ Welcome to the Watch Project! This application is built using Java for the logic
 - **JavaFX**: For the graphical user interface.
 
 ## Demo
-[Watch Project Demo](https://github.com/karim1378/Watch/tree/main/assets/demo.gif)
+[Project Demo](https://github.com/karim1378/Watch/tree/main/assets/demo.gif)
 
