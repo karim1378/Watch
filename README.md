@@ -10,10 +10,9 @@ Welcome to the Watch Project! This application is built using Java for the logic
  
 ## Technologies Used
 
-- **Java**: For the core logic of the program.(Threads and While Loops: Implemented in the Timer and Stopwatch sections to avoid using any ready-made packages or libraries.)
+- **Java**: For the core logic of the program(Threads and While Loops Implemented in the Timer and Stopwatch sections to avoid using any ready-made packages or libraries).
 - **JavaFX**: For the graphical user interface.
 
 ## Demo
-
-![Watch Project Demo](https://github.com/karim1378/Watch/tree/main/assets/demo.gif)
+[Watch Project Demo](https://github.com/karim1378/Watch/tree/main/assets/demo.gif)
 
