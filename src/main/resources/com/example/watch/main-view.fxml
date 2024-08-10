@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.watch.MainView">
+   <children>
+      <ImageView fitHeight="188.0" fitWidth="334.0" layoutX="161.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background-image.png" />
+         </image></ImageView>
+      <Label fx:id="clock" alignment="CENTER" layoutX="196.0" layoutY="297.0" prefHeight="53.0" prefWidth="233.0" textFill="#3704c6">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="680.0" layoutY="256.0" prefHeight="235.0" prefWidth="175.0" spacing="30.0" style="-fx-background-radius: 20; -fx-background-color: Afb83B;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToTimer" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 10;" text="timer" textFill="#7102c6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#switchToStopWatch" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 10;" text="stop watch" textFill="#7102c6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="23.0" layoutY="38.0" mnemonicParsing="false" onAction="#switchToTimeZone" prefHeight="40.0" prefWidth="150.0" style="-fx-background-radius: 10;" text="time zone" textFill="#7102c6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button layoutX="732.0" layoutY="33.0" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="123.0" style="-fx-background-radius: 10;" text="Exit" textFill="#cf0b02">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
